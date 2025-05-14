@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "fc70f2bed79b0d41",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cfaf70ef13d7bd9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "917eaeb4b7293d21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database Storage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Database Storage"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "07cbcf56bbd84ee9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0514e0c4ec5e844",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a90b2331bfcbe01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2bc5fa9bd92bc3f0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c2a7fb6b4255edba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6a1c9704c1afa7d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c95453e19bb09dc7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89d17634eada884e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "General/Project Tasks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Project Tasks"
+            }
+          },
+          {
+            "id": "2e99697c7b65569e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "General/Project Tasks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Project Tasks"
+            }
+          },
+          {
+            "id": "5e2464b3cd0c1702",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1ffbeb5798cd6646",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Databases/Database Storage.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Database Storage"
+            }
+          },
+          {
+            "id": "91699ea7cd21feee",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "4a90b2331bfcbe01",
+  "lastOpenFiles": [
+    "General/Resources.md",
+    "Databases/Database Storage.md",
+    "Attachments/Slotted Array Page Layout Slot and Tuple Growth.png",
+    "Attachments/Slotted Array Page layout.png",
+    "Attachments/Page Directory.png",
+    "Attachments",
+    "General/Project Tasks.md",
+    "General",
+    "Angular/ViewChild.md",
+    "Databases"
+  ]
+}
