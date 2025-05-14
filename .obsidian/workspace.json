@@ -1,24 +1,40 @@
 {
   "main": {
-    "id": "fc70f2bed79b0d41",
+    "id": "69bfc515836c1ad4",
     "type": "split",
     "children": [
       {
-        "id": "5cfaf70ef13d7bd9",
+        "id": "9947dcd9dce84fd1",
         "type": "tabs",
         "children": [
           {
-            "id": "917eaeb4b7293d21",
+            "id": "6ab44cbb39e9baf8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database Storage.md",
+                "file": "RxJS/Observables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Database Storage"
+              "title": "Observables"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ebd696d210db6510",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1b80f6706c1c9c6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -27,15 +43,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "07cbcf56bbd84ee9",
+    "id": "27f3676ef7a0da7f",
     "type": "split",
     "children": [
       {
-        "id": "b0514e0c4ec5e844",
+        "id": "b005e7beaa5c2efb",
         "type": "tabs",
         "children": [
           {
-            "id": "4a90b2331bfcbe01",
+            "id": "439053ee1ba3f39e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +64,7 @@
             }
           },
           {
-            "id": "2bc5fa9bd92bc3f0",
+            "id": "22a1d08cfa4afc74",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +81,7 @@
             }
           },
           {
-            "id": "c2a7fb6b4255edba",
+            "id": "486883fef5ce4303",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +97,20 @@
     "width": 300
   },
   "right": {
-    "id": "6a1c9704c1afa7d3",
+    "id": "6e3beb1c223ccaef",
     "type": "split",
     "children": [
       {
-        "id": "c95453e19bb09dc7",
+        "id": "3d19a92257186e24",
         "type": "tabs",
         "children": [
           {
-            "id": "89d17634eada884e",
+            "id": "5d6ddb5e5ae01535",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/Project Tasks.md",
+                "file": "RxJS/Observables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +120,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Project Tasks"
+              "title": "Backlinks for Observables"
             }
           },
           {
-            "id": "2e99697c7b65569e",
+            "id": "932a62d914ef7ace",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General/Project Tasks.md",
-                "linksCollapsed": false,
+                "file": "RxJS/Observables.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Project Tasks"
+              "title": "Outgoing links from Observables"
             }
           },
           {
-            "id": "5e2464b3cd0c1702",
+            "id": "65242d7c2b7a6f4a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,36 +153,26 @@
             }
           },
           {
-            "id": "1ffbeb5798cd6646",
+            "id": "4469ace5ec5c0d5f",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database Storage.md",
+                "file": "RxJS/Observables.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Database Storage"
-            }
-          },
-          {
-            "id": "91699ea7cd21feee",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Observables"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 296.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -176,21 +182,50 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4a90b2331bfcbe01",
+  "active": "6ab44cbb39e9baf8",
   "lastOpenFiles": [
+    "Node_JS/Event Loop.md",
+    "Node_JS",
+    "JavaScript/prototypes and inheritance.md",
+    "JavaScript",
     "General/Resources.md",
+    "General/Project Tasks.md",
     "Databases/Database Storage.md",
-    "Attachments/Slotted Array Page Layout Slot and Tuple Growth.png",
+    "Databases",
     "Attachments/Slotted Array Page layout.png",
+    "Attachments/Slotted Array Page Layout Slot and Tuple Growth.png",
     "Attachments/Page Directory.png",
     "Attachments",
-    "General/Project Tasks.md",
-    "General",
     "Angular/ViewChild.md",
-    "Databases"
+    "Angular",
+    "Assets/Scenario-1 Observables.png",
+    "RxJS/Observables.md",
+    "General/Design Patterns.md",
+    "General/Awesome Resources.md",
+    "General",
+    "RxJS/Introduction to RxJS.md",
+    "general/Awesome Resources.md",
+    "general/general.md",
+    "Untitled/Untitled.md",
+    "Untitled",
+    "Untitled.canvas",
+    "RxJS/A Super barebones implementation of Observables.md",
+    "RxJS/RxJS.md",
+    "Assets/Scenario-2 Observables.png",
+    "Assets/Pasted image 20250501222957.png",
+    "Assets",
+    "Pasted image 20250501222522.png",
+    "general/Design Patterns.md",
+    "general",
+    "typescript/Enums.md",
+    "RxJS/Observables/What are Observables.md",
+    "RxJS/Observables",
+    "typescript/Class Parameter Properties.md",
+    "().md",
+    "Welcome.md",
+    "create a link.md"
   ]
 }
