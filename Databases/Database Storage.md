@@ -12,7 +12,7 @@ A high-level design goal of the DBMS is to support databases that exceed the amo
 
 ## Disk-Oriented DBMS Overview
 
-The database is all on disk, and the data in database files is organised as files, which are  themselves organised into pages, with the first page being the [[Page Directory|directory page]]. To operate on the data, the DBMS needs to bring the data into memory. It does this by having a buffer pool that manages the data movement back and forth between disk and memory. The DBMS also has an execution engine that will execute queries. The execution engine will ask the buffer pool for a specific page, and the buffer pool will take care of bringing that page into memory and giving the execution engine a pointer to that page in memory. The buffer pool manager will ensure that the page is there while the execution engine operates on that part of memory.
+The database is all on disk, and the data in database files is organized as files, which are  themselves organized into pages, with the first page being the [[Page Directory|directory page]]. To operate on the data, the DBMS needs to bring the data into memory. It does this by having a buffer pool that manages the data movement back and forth between disk and memory. The DBMS also has an execution engine that will execute queries. The execution engine will ask the buffer pool for a specific page, and the buffer pool will take care of bringing that page into memory and giving the execution engine a pointer to that page in memory. The buffer pool manager will ensure that the page is there while the execution engine operates on that part of memory.
 
 ## File Storage
 
@@ -24,9 +24,9 @@ The Storage Manager is responsible for managing the database files, it represent
 
 ## Database Pages
 
-The DBMS organises database across one or more files in fixed size blocks of data called pages. Pages can contain different types of data (tuples, indexes etc). Most systems will not mix different data types within a page, some systems require pages to be self-contained, meaning that all the information to interpret the data in the page is within that page itself.
+The DBMS organizes database across one or more files in fixed size blocks of data called pages. Pages can contain different types of data (tuples, indexes etc.). Most systems will not mix different data types within a page, some systems require pages to be self-contained, meaning that all the information to interpret the data in the page is within that page itself.
 
-Each page is given a unique identifier (page id). If the database is stored in a single file then the page id can just be the file offset, i.e offset = page_number * page_size. A page id can be unique per DBMS instance, per database or per table. Most systems usually have an indirection layer that maps page id to file path and offset. The upper levels of the system ask for a page id and indirection layer provides a specific file offset.
+Each page is given a unique identifier (page id). If the database is stored in a single file then the page id can just be the file offset, i.e. offset = page_number * page_size. A page id can be unique per DBMS instance, per database or per table. Most systems usually have an indirection layer that maps page id to file path and offset. The upper levels of the system ask for a page id and indirection layer provides a specific file offset.
 
 Most database systems will only use fixed length pages to not deal with the complexity overhead that comes with variable length pages.
 

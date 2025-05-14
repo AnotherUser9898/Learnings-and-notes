@@ -17,10 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-<<<<<<< HEAD
   "scale": 1,
-=======
-  "scale": 1.3217420717121038,
->>>>>>> eb92939 (add notes(home))
   "close": true
 }
