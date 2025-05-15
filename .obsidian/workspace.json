@@ -6,7 +6,7 @@
       {
         "id": "ebd696d210db6510",
         "type": "tabs",
-        "dimension": 51.84563758389262,
+        "dimension": 51.845637583892625,
         "children": [
           {
             "id": "f1b80f6706c1c9c6",
@@ -27,7 +27,7 @@
       {
         "id": "2064b52865437a43",
         "type": "tabs",
-        "dimension": 48.15436241610738,
+        "dimension": 48.154362416107375,
         "children": [
           {
             "id": "7e2d2009a2497679",
@@ -189,8 +189,8 @@
   },
   "active": "7e2d2009a2497679",
   "lastOpenFiles": [
-    "JavaScript/prototypes and inheritance.md",
     "General/Project Tasks.md",
+    "JavaScript/prototypes and inheritance.md",
     "General/Design Patterns.md",
     "General/Awesome Resources.md",
     "General/Resources.md",
