@@ -1,4 +1,4 @@
-#Typescript-only-features 
+#typescript-only-features #typescript
 
 > Reference: [Total Typescript- Class Parameter Properties](https://www.totaltypescript.com/books/total-typescript-essentials/typescript-only-features#class-parameter-properties)
 
