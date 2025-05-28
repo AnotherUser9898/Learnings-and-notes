@@ -6,7 +6,7 @@
       {
         "id": "ebd696d210db6510",
         "type": "tabs",
-        "dimension": 59.50797872340425,
+        "dimension": 51.845637583892625,
         "children": [
           {
             "id": "f1b80f6706c1c9c6",
@@ -185,7 +185,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1b80f6706c1c9c6",
+  "active": "439053ee1ba3f39e",
   "lastOpenFiles": [
     "JavaScript/Prototypes and Inheritance.md",
     "Nest JS/Guards.md",
