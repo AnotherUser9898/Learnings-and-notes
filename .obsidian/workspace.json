@@ -6,6 +6,7 @@
       {
         "id": "ebd696d210db6510",
         "type": "tabs",
+        "dimension": 59.50797872340425,
         "children": [
           {
             "id": "f1b80f6706c1c9c6",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General(Home)/Design Patterns.md",
+                "file": "Nest JS/Pipes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design Patterns"
+              "title": "Pipes"
             }
           }
         ]
@@ -26,6 +27,7 @@
       {
         "id": "f7e9c94a16da0646",
         "type": "tabs",
+        "dimension": 40.49202127659575,
         "children": [
           {
             "id": "48ca20ed9f3355e3",
@@ -183,21 +185,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1b80f6706c1c9c6",
+  "active": "48ca20ed9f3355e3",
   "lastOpenFiles": [
+    "Nest JS/Pipes.md",
+    "Nest JS/Middleware.md",
+    "Angular/ViewChild.md",
+    "Nest JS",
+    "JavaScript/prototypes and inheritance.md",
+    "General(Home)/Awesome Resources.md",
+    "Databases/Database Storage.md",
+    "General(Office)/Project Tasks.md",
+    "Page Directory.md",
+    "General(Home)/Design Patterns.md",
     "typescript/Enums.md",
     "typescript/Unions, Literals and Narrowing.md",
     "typescript/Class Parameter Properties.md",
-    "General(Office)/Project Tasks.md",
-    "General(Home)/Awesome Resources.md",
     "RxJS/Observables.md",
-    "General(Home)/Design Patterns.md",
     "RxJS/Introduction to RxJS.md",
     "RxJS/A Super barebones implementation of Observables.md",
     "API.md",
     "Node_JS/Event Loop.md",
-    "Databases/Database Storage.md",
-    "JavaScript/prototypes and inheritance.md",
     "General/Design Patterns.md",
     "General/Awesome Resources.md",
     "General/Resources.md",
@@ -208,13 +215,11 @@
     "Assets/Slotted Array Page layout.png",
     "Assets/Slotted Array Page Layout Slot and Tuple Growth.png",
     "Attachments",
-    "Angular/ViewChild.md",
     "Angular",
     "Assets/Scenario-1 Observables.png",
     "General(Office)",
     "general/general.md",
     "Untitled/Untitled.md",
-    "Untitled",
     "Untitled.canvas",
     "RxJS/RxJS.md",
     "Assets/Scenario-2 Observables.png",
@@ -225,7 +230,6 @@
     "RxJS/Observables/What are Observables.md",
     "RxJS/Observables",
     "().md",
-    "Welcome.md",
-    "create a link.md"
+    "Welcome.md"
   ]
 }
