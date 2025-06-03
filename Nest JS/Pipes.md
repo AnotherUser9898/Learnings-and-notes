@@ -47,6 +47,42 @@ async getCat(
 
 Binding all other pipes works similarly.
 
+### Binding Pipes at the Controller level
+
+To bind pipes at the controller level we use the `@UsePipes` decorator. 
+
+```typescript
+@Controller('users')
+@UsePipes(TrimPipe) // Nest JS will instantiate this pipe
+export class UserController {
+	@Post()
+	create(@Body() createUserDto: CreateUserDto) {
+		return {
+			message: 'success',
+			user: createUserDto
+		};
+	}
+}
+```
+
+To let Nest JS instantiate the pipe automatically we need to provide it in the providers array of the module the controller belongs to. Letting Nest JS handle the instantiate is beneficial when the pipes uses dependency injection within it.
+
+If your pipe is very simple and does not have any dependencies you can instantiate it manually instead of relying on Nest JS to do it for you.
+
+```typescript
+@Controller('users')
+@UsePipes(new TrimPipe()) // Manual Instantiation
+export class UserController {
+	@Post()
+	create(@Body() createUserDto: CreateUserDto) {
+		return {
+			message: 'success',
+			user: createUserDto
+		};
+	}
+}
+```
+
 ## Custom Pipes
 
 Nest gives us the ability to create custom pipes. A custom pipe is class annotated with an `@Injectable` decorator that implements the `PipeTransform` interface.
@@ -87,11 +123,11 @@ export interface ArgumentMetadata {
 ```
 
 - type: Indicates whether the argument is a body `@Body()`, query `@Query()`, param `@Param()`, or a custom parameter.
-- metatype: Provides the metatype of the argument, for example, `String`. Note: the value is `undefined` if you either omit a type declaration in the route handler method signature, or use vanilla JavaScript. In the above example with `CustomPipe` the metatype is the `string` type which translates to the `String` constructor function being held in the metatype property.
+- metatype: Provides the metatype of the argument, for example, `String`. Note: the value is `undefined` if you either omit a type declaration in the route handler method signature, or use vanilla JavaScript its value will be `undefined`. In the above example with `CustomPipe` the metatype is the `string` type which translates to the `String` constructor function being held in the metatype property.
 - data: The string passed to the decorator for example string in `@Body('string')`.  It's `undefined` if you leave the decorator parenthesis empty.
 ## Global scoped pipes
 
-Since the `ValidationPipe` was created to be as generic as possible, we can realize its full utility by setting it up as a **global-scoped** pipe so that it is applied to every route handler across the entire application.
+We can make a pipe global scoped by using the `app.useGlobalPipes` method in the main.ts file of our application. Here we use the built in `ValidationPipe` as a Global Pipe.
 
 ```typescript
 

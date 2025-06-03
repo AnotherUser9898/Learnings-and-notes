@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest JS/Pipes.md",
+                "file": "Nest JS/Guards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pipes"
+              "title": "Guards"
             }
           }
         ]
@@ -185,13 +185,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48ca20ed9f3355e3",
+  "active": "f1b80f6706c1c9c6",
   "lastOpenFiles": [
-    "Nest JS/Pipes.md",
+    "JavaScript/Prototypes and Inheritance.md",
+    "Nest JS/Guards.md",
     "Nest JS/Middleware.md",
+    "Nest JS/Pipes.md",
     "Angular/ViewChild.md",
     "Nest JS",
-    "JavaScript/prototypes and inheritance.md",
     "General(Home)/Awesome Resources.md",
     "Databases/Database Storage.md",
     "General(Office)/Project Tasks.md",
@@ -229,7 +230,6 @@
     "General(Home)",
     "RxJS/Observables/What are Observables.md",
     "RxJS/Observables",
-    "().md",
-    "Welcome.md"
+    "().md"
   ]
 }
