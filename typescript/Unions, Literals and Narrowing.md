@@ -1,7 +1,9 @@
 #typescript
+
 >References: 
 > - [Stack Overflow answer explaining the types](https://stackoverflow.com/questions/38855908/naming-of-typescript-union-and-intersection-types)
 > - [Total Typescript - Discriminated Unions](https://www.totaltypescript.com/books/total-typescript-essentials/unions-literals-and-narrowing#discriminated-unions)
+
 
 # Discriminated Unions
 
