@@ -6,3 +6,9 @@
 - [ ] Chats
 - [ ] Video Conferencing
 - [ ] Assignment Uploads and Downloads by both Instructors and Students
+
+## Messaging Feature
+
+- [ ] Create prisma schema for messaging feature
+- [ ] Create route to get all the conversations a user has been a part of, sorted by most recent to least recent, with pagination
+- [ ] Create route to create a conversation

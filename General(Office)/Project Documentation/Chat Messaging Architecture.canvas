@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"ccdca09c98b91e3b","type":"text","text":"User Connects to Server using Web Socket and gets authenticated successfully","x":-960,"y":-94,"width":200,"height":160},
+		{"id":"dde64200f7a75def","type":"text","text":"Frontend sends an HTTP request to fetch all the conversations the user has been a part in","x":-680,"y":-85,"width":235,"height":143},
+		{"id":"0f79f0c08c470e16","type":"text","text":"Server sends the user the [[Project Terminology Document#Conversation | conversations]] they have been a part in, ordered from most recent to least recent","x":-360,"y":-88,"width":247,"height":149},
+		{"id":"db19e539fe32aa4b","type":"text","text":"User types the name of the user they want to search in the search bar","x":-10,"y":260,"width":247,"height":96},
+		{"id":"aa7d50aabfaa9f8d","type":"text","text":"Frontend sends a web socket request to the server to join the room","x":403,"y":-603,"width":235,"height":86},
+		{"id":"9cf227039da74751","type":"text","text":"User scrolls past the messages already received","x":724,"y":-534,"width":241,"height":102},
+		{"id":"1334feee13df3684","type":"text","text":"Frontend sends an HTTP request to fetch all the previous messages in the [[Project Terminology Document#Conversation|conversation]], with pagination","x":400,"y":-359,"width":254,"height":163},
+		{"id":"e9f7d1a1b3fce18f","type":"text","text":"Server sends all the messages from that conversation, with pagination","x":720,"y":-343,"width":248,"height":132},
+		{"id":"1421036adc08c795","type":"text","text":"Frontend sets event listeners to listen for new messages and event emitters to send new messages","x":403,"y":-168,"width":241,"height":160},
+		{"id":"bd9955d450932b9a","type":"text","text":"User clicks on a conversation","x":27,"y":-307,"width":173,"height":60},
+		{"id":"b01cc862de8f323e","type":"text","text":"User Clicks on a new conversation with a new user","x":644,"y":250,"width":250,"height":106},
+		{"id":"faa287e172e45ec6","x":1000,"y":260,"width":253,"height":86,"type":"text","text":"Frontend sends an HTTP request to create a new conversation"},
+		{"id":"2c774dc5478ac77f","x":1380,"y":227,"width":259,"height":152,"type":"text","text":"Frontend sets event listeners to listen for anew messages and sets event emitters to send new messages"}
+	],
+	"edges":[
+		{"id":"f64b004fb2378790","fromNode":"0f79f0c08c470e16","fromSide":"right","toNode":"bd9955d450932b9a","toSide":"left"},
+		{"id":"6ddbc2fb2f4f90a7","fromNode":"bd9955d450932b9a","fromSide":"right","toNode":"1334feee13df3684","toSide":"left"},
+		{"id":"75e9f04956d45869","fromNode":"1334feee13df3684","fromSide":"right","toNode":"e9f7d1a1b3fce18f","toSide":"left"},
+		{"id":"a6563afbef94c4c4","fromNode":"bd9955d450932b9a","fromSide":"right","toNode":"aa7d50aabfaa9f8d","toSide":"left"},
+		{"id":"7f6af2c85c205347","fromNode":"bd9955d450932b9a","fromSide":"right","toNode":"1421036adc08c795","toSide":"left"},
+		{"id":"1225b7b4fdc73268","fromNode":"e9f7d1a1b3fce18f","fromSide":"top","toNode":"9cf227039da74751","toSide":"bottom"},
+		{"id":"0c2397c373d63887","fromNode":"9cf227039da74751","fromSide":"left","toNode":"1334feee13df3684","toSide":"top"},
+		{"id":"17d9ca2e618149cf","fromNode":"ccdca09c98b91e3b","fromSide":"right","toNode":"dde64200f7a75def","toSide":"left"},
+		{"id":"fef514167a61e2f7","fromNode":"dde64200f7a75def","fromSide":"right","toNode":"0f79f0c08c470e16","toSide":"left"},
+		{"id":"b301222d042811a5","fromNode":"0f79f0c08c470e16","fromSide":"right","toNode":"db19e539fe32aa4b","toSide":"left"},
+		{"id":"9ac31b0aa63b941c","fromNode":"db19e539fe32aa4b","fromSide":"top","toNode":"bd9955d450932b9a","toSide":"bottom","label":"A conversation\n with that user \nalready exists"},
+		{"id":"bcd3fccdbab8c43e","fromNode":"db19e539fe32aa4b","fromSide":"right","toNode":"b01cc862de8f323e","toSide":"left","label":"No conversation\nwith this \nuser exists"},
+		{"id":"c5f2980a941cede8","fromNode":"b01cc862de8f323e","fromSide":"right","toNode":"faa287e172e45ec6","toSide":"left"},
+		{"id":"7aed7941a082fe6a","fromNode":"faa287e172e45ec6","fromSide":"right","toNode":"2c774dc5478ac77f","toSide":"left"}
+	]
+}
